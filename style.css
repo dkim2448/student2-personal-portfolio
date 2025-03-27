@@ -597,7 +597,7 @@ footer .bottom .links a {
     .wind .grid,
     .fluids .grid,
     .rocket .grid {
-        gap: 8px;
+        gap: 18px;
         font-size: 10px;
     }
 
