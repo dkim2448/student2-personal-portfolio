@@ -320,6 +320,7 @@ footer .bottom .links a {
 /* RESPONSIVE MEDIA QUERIES */
 
 @media screen and (max-width: 1780px) {
+
     /* body {
         border: 5px solid yellow;
     } */
@@ -342,6 +343,7 @@ footer .bottom .links a {
 }
 
 @media screen and (max-width: 1200px) {
+
     /* body {
         border: 5px solid green;
     } */
@@ -366,24 +368,6 @@ footer .bottom .links a {
     .rocket .grid {
         gap: 20px;
         font-size: 14px;
-    }
-
-    .winds .grid .image img,
-    .fluids .grid .image img,
-    .rocket .grid .image img,
-    .rocket .grid .image video {
-        width: 300px;
-    }
-
-    .wind .grid .explain,
-    .fluids .grid .explain,
-    .rocket .grid .explain {
-        width: 300px;
-    }
-
-    .wind .grid .image img {
-        width: 300px;
-        height: 300px;
     }
 }
 
@@ -494,26 +478,38 @@ footer .bottom .links a {
     .wind .grid,
     .fluids .grid,
     .rocket .grid {
+        grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         font-size: 10px;
+    }
+
+    .fluids .grid .image1,
+    .rocket .grid .image1 {
+        grid-area: 1 / 1;
+    }
+
+    .fluids .grid .image2,
+    .wind .grid .image2 {
+        grid-area: 3 / 1;
     }
 
     .winds .grid .image img,
     .fluids .grid .image img,
     .rocket .grid .image img,
     .rocket .grid .image video {
-        width: 200px;
+        width: 100%;
+
     }
 
     .wind .grid .explain,
     .fluids .grid .explain,
     .rocket .grid .explain {
-        width: 200px;
+        width: 100%;
     }
 
     .wind .grid .image img {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
     }
 
     footer {
@@ -599,23 +595,5 @@ footer .bottom .links a {
     .rocket .grid {
         gap: 18px;
         font-size: 10px;
-    }
-
-    .winds .grid .image img,
-    .fluids .grid .image img,
-    .rocket .grid .image img,
-    .rocket .grid .image video {
-        width: 150px;
-    }
-
-    .wind .grid .explain,
-    .fluids .grid .explain,
-    .rocket .grid .explain {
-        width: 160px;
-    }
-
-    .wind .grid .image img {
-        width: 160px;
-        height: 160px;
     }
 }
