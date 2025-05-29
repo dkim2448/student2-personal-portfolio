@@ -211,7 +211,8 @@ nav .nav-links a {
 
 .wind,
 .fluids,
-.rocket {
+.rocket,
+.pulse {
     margin: 40px;
     padding: 40px 70px;
     background-color: #deebee;
@@ -224,7 +225,8 @@ nav .nav-links a {
 
 .wind .work-info,
 .fluids .work-info,
-.rocket .work-info {
+.rocket .work-info,
+.pulse .work-info {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -233,14 +235,16 @@ nav .nav-links a {
 
 .wind .work-info .category,
 .fluids .work-info .category,
-.rocket .work-info .category {
+.rocket .work-info .category,
+.pulse .work-info .category {
     color: #8695a4;
     font-size: 16px;
 }
 
 .wind .work-info .year-badge,
 .fluids .work-info .year-badge,
-.rocket .work-info .year-badge {
+.rocket .work-info .year-badge,
+.pulse .work-info .year-badge {
     background-color: #00246B;
     padding: 2px 14px;
     color: white;
@@ -250,7 +254,8 @@ nav .nav-links a {
 
 .wind .grid,
 .fluids .grid,
-.rocket .grid {
+.rocket .grid,
+.pulse .grid {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -261,6 +266,7 @@ nav .nav-links a {
 .winds .grid .image img,
 .fluids .grid .image img,
 .rocket .grid .image img,
+.pulse .grid .image img,
 .rocket .grid .image video {
     width: 400px;
     border-radius: 20px;
@@ -268,7 +274,8 @@ nav .nav-links a {
 
 .wind .grid .explain,
 .fluids .grid .explain,
-.rocket .grid .explain {
+.rocket .grid .explain,
+.pulse .grid .explain {
     width: 400px;
 }
 
@@ -365,7 +372,8 @@ footer .bottom .links a {
 
     .wind .grid,
     .fluids .grid,
-    .rocket .grid {
+    .rocket .grid,
+    .pulse .grid {
         gap: 20px;
         font-size: 14px;
     }
@@ -395,7 +403,8 @@ footer .bottom .links a {
 
     .wind .grid,
     .fluids .grid,
-    .rocket .grid {
+    .rocket .grid,
+    .pulse .grid {
         gap: 20px;
         font-size: 12px;
     }
@@ -403,13 +412,15 @@ footer .bottom .links a {
     .winds .grid .image img,
     .fluids .grid .image img,
     .rocket .grid .image img,
+    .pulse .grid .image img,
     .rocket .grid .image video {
         width: 280px;
     }
 
     .wind .grid .explain,
     .fluids .grid .explain,
-    .rocket .grid .explain {
+    .rocket .grid .explainj,
+    .pulse .grid .explain {
         width: 280px;
     }
 
@@ -471,31 +482,36 @@ footer .bottom .links a {
 
     .wind,
     .fluids,
-    .rocket {
+    .rocket,
+    .pulse {
         padding: 30px;
     }
 
     .wind .grid,
     .fluids .grid,
-    .rocket .grid {
+    .rocket .grid,
+    .pulse .grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
         font-size: 10px;
     }
 
     .fluids .grid .image1,
-    .rocket .grid .image1 {
+    .rocket .grid .image1,
+    .pulse .grid .image1 {
         grid-area: 1 / 1;
     }
 
     .fluids .grid .image2,
-    .wind .grid .image2 {
+    .wind .grid .image2,
+    .pulse .grid .image2 {
         grid-area: 3 / 1;
     }
 
     .winds .grid .image img,
     .fluids .grid .image img,
     .rocket .grid .image img,
+    .pulse .grid .image img,
     .rocket .grid .image video {
         width: 100%;
 
@@ -503,7 +519,8 @@ footer .bottom .links a {
 
     .wind .grid .explain,
     .fluids .grid .explain,
-    .rocket .grid .explain {
+    .rocket .grid .explain,
+    .pulse .grid .explain {
         width: 100%;
     }
 
@@ -579,7 +596,8 @@ footer .bottom .links a {
 
     .wind,
     .fluids,
-    .rocket {
+    .rocket,
+    .pulse {
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -592,7 +610,8 @@ footer .bottom .links a {
 
     .wind .grid,
     .fluids .grid,
-    .rocket .grid {
+    .rocket .grid,
+    .pulse .grid {
         gap: 18px;
         font-size: 10px;
     }
