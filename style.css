@@ -266,8 +266,7 @@ nav .nav-links a {
 .wind .grid .image img,
 .fluids .grid .image img,
 .rocket .grid .image img,
-.pulse .grid .image img,
-.rocket .grid .image video {
+.pulse .grid .image img {
     width: 400px;
     border-radius: 20px;
 }
@@ -406,8 +405,7 @@ footer .bottom .links a {
     .wind .grid .image img,
     .fluids .grid .image img,
     .rocket .grid .image img,
-    .pulse .grid .image img,
-    .rocket .grid .image video {
+    .pulse .grid .image img {
         width: 280px;
     }
 
@@ -500,8 +498,7 @@ footer .bottom .links a {
     .wind .grid .image img,
     .fluids .grid .image img,
     .rocket .grid .image img,
-    .pulse .grid .image img,
-    .rocket .grid .image video {
+    .pulse .grid .image img {
         width: 100%;
 
     }
